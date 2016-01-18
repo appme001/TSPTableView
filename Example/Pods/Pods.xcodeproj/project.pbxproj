@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AB59B961E71910D7CDC4FDB8483B51 /* Pods-TSPTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 206B8E1C70CDCF8B034DB62C63B64A0F /* Pods-TSPTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA1E651E88D066AE7F5E1025D80506D /* TSPTableView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 381191CBB0C9B86089565B50E6FAF0E4 /* TSPTableView.bundle */; };
+		3821328D59ED0A10DE340D58ED4CBE59 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3847318B3AD01A0A60E13969C8A5EC73 /* ReplaceMe.m */; };
+		56B3F4CCF3D7BE4553415FAA608552C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272C5A22A451FF0CEE625925D655BF1 /* Foundation.framework */; };
+		7140B024348236092453E33821EFB004 /* TSPTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DEA42112CB9F008158F26A10CD5BDB /* TSPTableView-dummy.m */; };
+		976250D2C2E4678FAFF0556F4AB6D0C3 /* TSPTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 215F5E0D3F6E2369E62CD2DFA5A82D93 /* TSPTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C294130CD73FDD688BCC1CFA7859CFFD /* Pods-TSPTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DB959F4D3C24BB2A88DC8567224653 /* Pods-TSPTableView_Tests-dummy.m */; };
+		DFA47A61E4D0B22B93D68D60CBB10418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272C5A22A451FF0CEE625925D655BF1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13F13D23F548F0FF1A566FEA901F72E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0E51B914EDD34CF6F54884C2F7DC64;
+			remoteInfo = TSPTableView;
+		};
+		1A0CB342B74DF3E0E5B649190BBC0D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7940FE51096F62D4B3B631292277E55;
+			remoteInfo = "TSPTableView-TSPTableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB11E6A78EFA0138066D1C511B68B00 /* Pods-TSPTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSPTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		206B8E1C70CDCF8B034DB62C63B64A0F /* Pods-TSPTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSPTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		215F5E0D3F6E2369E62CD2DFA5A82D93 /* TSPTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSPTableView-umbrella.h"; sourceTree = "<group>"; };
+		2999639C836493F594C8747DC4C5827C /* Pods-TSPTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TSPTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		381191CBB0C9B86089565B50E6FAF0E4 /* TSPTableView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSPTableView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3847318B3AD01A0A60E13969C8A5EC73 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		4272C5A22A451FF0CEE625925D655BF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4638693448E134875FA4568F6462D75C /* Pods_TSPTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSPTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DEA42112CB9F008158F26A10CD5BDB /* TSPTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSPTableView-dummy.m"; sourceTree = "<group>"; };
+		671F529CA9C093C0881E4100D6F8DC5E /* Pods-TSPTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSPTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		788C397E7CCAB0832FF68737B1DA7498 /* Pods-TSPTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSPTableView_Tests-resources.sh"; sourceTree = "<group>"; };
+		8B4F1AB66B80CC7D4B54D97FC3437C8A /* TSPTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSPTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E3BA8466CE09530E18EBA689A49A0D /* TSPTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TSPTableView.modulemap; sourceTree = "<group>"; };
+		993A018ED9544EC3DCDA7F4B7309C54F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB0C6B491517E26BE04A69A9A4134B3F /* TSPTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSPTableView.xcconfig; sourceTree = "<group>"; };
+		D682C4E7F9F4153441DED15EC8915EBE /* Pods-TSPTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSPTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2853B9C95E33932ED7392162B77B176 /* Pods-TSPTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSPTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E4DB959F4D3C24BB2A88DC8567224653 /* Pods-TSPTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSPTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		EBCEA54A34546A7611BFC82C6402B472 /* TSPTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSPTableView-prefix.pch"; sourceTree = "<group>"; };
+		F2086F8F9B88B9EB05FBA5D75444E798 /* Pods-TSPTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSPTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE25E0B36D3FC437330FE1A20D912836 /* TSPTableView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSPTableView-Private.xcconfig"; sourceTree = "<group>"; };
+		FED14AD94F60E019D4E46680A6B1D267 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030AB08CFE7BA38858B075EA94DA045F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B3F4CCF3D7BE4553415FAA608552C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26EC84BDFB3D718AA01AC434AE7E100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA47A61E4D0B22B93D68D60CBB10418 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE127B1CDB52F505A5230A41A61898CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23CAC10C9F6ABF07B3D3C50B69B19E2C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA802A949D8D1FE6BBF54814B391F34D /* TSPTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4272C5A22A451FF0CEE625925D655BF1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5ACA06D7DD594D3B5B05548BF84D5078 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				73A87C4223138AB2B99751AA6C5223E7 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		73A87C4223138AB2B99751AA6C5223E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3847318B3AD01A0A60E13969C8A5EC73 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				23CAC10C9F6ABF07B3D3C50B69B19E2C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				ECDC447373CA065A2DDD4954BAFEFE2D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BA802A949D8D1FE6BBF54814B391F34D /* TSPTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5ACA06D7DD594D3B5B05548BF84D5078 /* Pod */,
+				CB97E0D0EDFD86AB139F89FB9ECCADBC /* Support Files */,
+			);
+			name = TSPTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB97E0D0EDFD86AB139F89FB9ECCADBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED14AD94F60E019D4E46680A6B1D267 /* Info.plist */,
+				96E3BA8466CE09530E18EBA689A49A0D /* TSPTableView.modulemap */,
+				BB0C6B491517E26BE04A69A9A4134B3F /* TSPTableView.xcconfig */,
+				FE25E0B36D3FC437330FE1A20D912836 /* TSPTableView-Private.xcconfig */,
+				56DEA42112CB9F008158F26A10CD5BDB /* TSPTableView-dummy.m */,
+				EBCEA54A34546A7611BFC82C6402B472 /* TSPTableView-prefix.pch */,
+				215F5E0D3F6E2369E62CD2DFA5A82D93 /* TSPTableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TSPTableView";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4638693448E134875FA4568F6462D75C /* Pods_TSPTableView_Tests.framework */,
+				381191CBB0C9B86089565B50E6FAF0E4 /* TSPTableView.bundle */,
+				8B4F1AB66B80CC7D4B54D97FC3437C8A /* TSPTableView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E67CE3DF4B7C5205249E3EE48FBBE5B2 /* Pods-TSPTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				993A018ED9544EC3DCDA7F4B7309C54F /* Info.plist */,
+				2999639C836493F594C8747DC4C5827C /* Pods-TSPTableView_Tests.modulemap */,
+				F2086F8F9B88B9EB05FBA5D75444E798 /* Pods-TSPTableView_Tests-acknowledgements.markdown */,
+				D682C4E7F9F4153441DED15EC8915EBE /* Pods-TSPTableView_Tests-acknowledgements.plist */,
+				E4DB959F4D3C24BB2A88DC8567224653 /* Pods-TSPTableView_Tests-dummy.m */,
+				0CB11E6A78EFA0138066D1C511B68B00 /* Pods-TSPTableView_Tests-frameworks.sh */,
+				788C397E7CCAB0832FF68737B1DA7498 /* Pods-TSPTableView_Tests-resources.sh */,
+				206B8E1C70CDCF8B034DB62C63B64A0F /* Pods-TSPTableView_Tests-umbrella.h */,
+				671F529CA9C093C0881E4100D6F8DC5E /* Pods-TSPTableView_Tests.debug.xcconfig */,
+				E2853B9C95E33932ED7392162B77B176 /* Pods-TSPTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-TSPTableView_Tests";
+			path = "Target Support Files/Pods-TSPTableView_Tests";
+			sourceTree = "<group>";
+		};
+		ECDC447373CA065A2DDD4954BAFEFE2D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E67CE3DF4B7C5205249E3EE48FBBE5B2 /* Pods-TSPTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		120EEC613E5BCF5CFBFFC93CDEBED047 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976250D2C2E4678FAFF0556F4AB6D0C3 /* TSPTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EA06383E230549A0B0C1E737481B3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AB59B961E71910D7CDC4FDB8483B51 /* Pods-TSPTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A0E51B914EDD34CF6F54884C2F7DC64 /* TSPTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2F6BCDE3CC055C6390F4D698E59400 /* Build configuration list for PBXNativeTarget "TSPTableView" */;
+			buildPhases = (
+				0ECB3C1652CB59640280B62A2DDF5287 /* Sources */,
+				030AB08CFE7BA38858B075EA94DA045F /* Frameworks */,
+				1A065641498FEEC056B309EA68EF293B /* Resources */,
+				120EEC613E5BCF5CFBFFC93CDEBED047 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E5310CF3D5F74BDEC30539E812541D /* PBXTargetDependency */,
+			);
+			name = TSPTableView;
+			productName = TSPTableView;
+			productReference = 8B4F1AB66B80CC7D4B54D97FC3437C8A /* TSPTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		793A95CD9F16AEF30918ECB866CB8F11 /* Pods-TSPTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC01D79ABBE4A68381450D4075BC383F /* Build configuration list for PBXNativeTarget "Pods-TSPTableView_Tests" */;
+			buildPhases = (
+				89DC83232F9C474262533B1CE8CC5A0B /* Sources */,
+				B26EC84BDFB3D718AA01AC434AE7E100 /* Frameworks */,
+				D4EA06383E230549A0B0C1E737481B3D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				275861982FF0EC14C722748F49116DA3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TSPTableView_Tests";
+			productName = "Pods-TSPTableView_Tests";
+			productReference = 4638693448E134875FA4568F6462D75C /* Pods_TSPTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7940FE51096F62D4B3B631292277E55 /* TSPTableView-TSPTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A22DF2A87C14CF9969590EB8E2B8802 /* Build configuration list for PBXNativeTarget "TSPTableView-TSPTableView" */;
+			buildPhases = (
+				629C059B0C768F2859A4B71D234C0C8B /* Sources */,
+				DE127B1CDB52F505A5230A41A61898CD /* Frameworks */,
+				DD79A1F7D15061C6DAF4D7F572ECB523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TSPTableView-TSPTableView";
+			productName = "TSPTableView-TSPTableView";
+			productReference = 381191CBB0C9B86089565B50E6FAF0E4 /* TSPTableView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				793A95CD9F16AEF30918ECB866CB8F11 /* Pods-TSPTableView_Tests */,
+				4A0E51B914EDD34CF6F54884C2F7DC64 /* TSPTableView */,
+				C7940FE51096F62D4B3B631292277E55 /* TSPTableView-TSPTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A065641498FEEC056B309EA68EF293B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA1E651E88D066AE7F5E1025D80506D /* TSPTableView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD79A1F7D15061C6DAF4D7F572ECB523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ECB3C1652CB59640280B62A2DDF5287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3821328D59ED0A10DE340D58ED4CBE59 /* ReplaceMe.m in Sources */,
+				7140B024348236092453E33821EFB004 /* TSPTableView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629C059B0C768F2859A4B71D234C0C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DC83232F9C474262533B1CE8CC5A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C294130CD73FDD688BCC1CFA7859CFFD /* Pods-TSPTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E5310CF3D5F74BDEC30539E812541D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TSPTableView-TSPTableView";
+			target = C7940FE51096F62D4B3B631292277E55 /* TSPTableView-TSPTableView */;
+			targetProxy = 1A0CB342B74DF3E0E5B649190BBC0D6E /* PBXContainerItemProxy */;
+		};
+		275861982FF0EC14C722748F49116DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSPTableView;
+			target = 4A0E51B914EDD34CF6F54884C2F7DC64 /* TSPTableView */;
+			targetProxy = 13F13D23F548F0FF1A566FEA901F72E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1260B686A1BD24FC104D8263D0A50166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE25E0B36D3FC437330FE1A20D912836 /* TSPTableView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSPTableView/TSPTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSPTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSPTableView/TSPTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TSPTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1810C54F66CD697882E1F294774B1376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2853B9C95E33932ED7392162B77B176 /* Pods-TSPTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TSPTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TSPTableView_Tests/Pods-TSPTableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TSPTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76C5077410AE67ABA3D58CCCE56F6035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE25E0B36D3FC437330FE1A20D912836 /* TSPTableView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TSPTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BC5BFA86305295B82ADDDD6A6562D3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671F529CA9C093C0881E4100D6F8DC5E /* Pods-TSPTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TSPTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TSPTableView_Tests/Pods-TSPTableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TSPTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1220E66C5BC1FCFE98E3B6DCAD2C24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE25E0B36D3FC437330FE1A20D912836 /* TSPTableView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSPTableView/TSPTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSPTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSPTableView/TSPTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TSPTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F60585004B574BB44145F25143EFA12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE25E0B36D3FC437330FE1A20D912836 /* TSPTableView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TSPTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A22DF2A87C14CF9969590EB8E2B8802 /* Build configuration list for PBXNativeTarget "TSPTableView-TSPTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60585004B574BB44145F25143EFA12A /* Debug */,
+				76C5077410AE67ABA3D58CCCE56F6035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2F6BCDE3CC055C6390F4D698E59400 /* Build configuration list for PBXNativeTarget "TSPTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1220E66C5BC1FCFE98E3B6DCAD2C24D /* Debug */,
+				1260B686A1BD24FC104D8263D0A50166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC01D79ABBE4A68381450D4075BC383F /* Build configuration list for PBXNativeTarget "Pods-TSPTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5BFA86305295B82ADDDD6A6562D3C3 /* Debug */,
+				1810C54F66CD697882E1F294774B1376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

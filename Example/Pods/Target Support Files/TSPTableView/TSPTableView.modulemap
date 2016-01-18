@@ -1,0 +1,6 @@
+framework module TSPTableView {
+  umbrella header "TSPTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

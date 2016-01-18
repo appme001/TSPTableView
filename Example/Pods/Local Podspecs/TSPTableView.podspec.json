@@ -1,0 +1,25 @@
+{
+  "name": "TSPTableView",
+  "version": "0.1.0",
+  "summary": "A short description of TSPTableView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TSPTableView",
+  "license": "MIT",
+  "authors": {
+    "George S": "g.sotiropoulos@internetq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TSPTableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TSPTableView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
